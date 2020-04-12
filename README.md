@@ -80,7 +80,7 @@ For Cluster connection provide a comma-separated URL string:
 ```ts
 const options = {
         strategy: new ServerStan({
-            url: 'nats://server1:4222,server2:4222',
+            url: 'nats://server1:4222,nats://server2:4222',
             group: 'user.workers',
             clusterId: 'test-cluster',
             clientId: 'user-service',
