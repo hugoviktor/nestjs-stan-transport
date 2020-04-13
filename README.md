@@ -1,13 +1,13 @@
 ✨ NATS Streaming Server and Client transport modules for NestJS
 =====
 
-[![](https://badgen.net/npm/v/event-sourcing-nestjs)](https://www.npmjs.com/package/event-sourcing-nestjs) ![](https://badgen.net/npm/dt/event-sourcing-nestjs) 
+[![](https://badgen.net/npm/v/nestjs-stan-transport)](https://www.npmjs.com/package/nestjs-stan-transport) ![](https://badgen.net/npm/dt/nestjs-stan-transport) 
 
 Library that implements NATS Streaming server(subscriber) and client(publisher) transport using NestJS and his Microservices library.
 
 ## ⭐️ Features
-* **ServerStan**: A class that implements Nest's ClientProxy to also persists events in mongodb.
-* **ClientStan**: A class that replaces Nest's EventPublisher.
+* **ClientStan**: A class that implements Nest's ClientProxy to emit event to NATS Streaming.
+* **ServerStan**: A class that implements Nest's CustomTransportStrategy to listen to events from NATS Streaming.
 
 
 

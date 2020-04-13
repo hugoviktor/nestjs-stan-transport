@@ -1,7 +1,7 @@
 {
   "name": "nestjs-stan-transport",
   "description": "NATS Streaming Server and Client transport modules for NestJS",
-  "version": "1.0.8",
+  "version": "1.0.1",
   "license": "MIT",
   "main": "dist/index",
   "types": "dist/index",
@@ -37,5 +37,22 @@
   "author": {
     "name": "Victor Hugo",
     "email": "vjuliodesarrollo@gmail.com"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hugoviktor/nestjs-stan-transport"
+  },
+  "keywords": [
+    "nats",
+    "messaging",
+    "pubsub",
+    "publish",
+    "subscribe",
+    "queue",
+    "distributed",
+    "queueing",
+    "streaming",
+    "nest",
+    "nestjs"
+  ]
 }
