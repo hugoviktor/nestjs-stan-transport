@@ -131,4 +131,3 @@ export class UserHanlderService  {
 ## 📝 Stay in touch
 
 - Author - [VictorHugo](https://twitter.com/victicod)
-- Website - [https://arkerlabs.com/](https://arkerlabs.com/)
