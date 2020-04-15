@@ -43,7 +43,7 @@ import { StanTransportModule } from 'nestjs-stan-transport';
             group: 'user.workers',
             clusterId: 'test-cluster',
             clientId: 'user-service-publisher',
-        },
+        })
   ],
 })
 export class ApplicationModule {}
